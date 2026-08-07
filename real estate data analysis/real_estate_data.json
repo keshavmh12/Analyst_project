@@ -1,0 +1,2772 @@
+[
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kochi",
+    "date": "2024-11-19",
+    "size": 3049.0,
+    "type": "Apartment",
+    "neighborhood": "Vennala",
+    "price": 12000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 1380.0,
+    "type": "Flat",
+    "neighborhood": "Kancharapalem",
+    "price": 7000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 2718.0,
+    "type": "Apartment",
+    "neighborhood": "Gajuwaka",
+    "price": 30000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 740520.0,
+    "type": "Residential Property",
+    "neighborhood": "Narsipatnam",
+    "price": 40000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 1440.0,
+    "type": "Apartment",
+    "neighborhood": "balacheruvu road",
+    "price": 5500000.0
+  },
+  {
+    "beds": 4,
+    "baths": 3.0,
+    "city": "Agra",
+    "date": "2024-11-19",
+    "size": 1250.0,
+    "type": "House",
+    "neighborhood": "Shamshabad Road",
+    "price": 5200000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 1200.0,
+    "type": "Apartment",
+    "neighborhood": "Muralinagar",
+    "price": 8500000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 920.0,
+    "type": "Flat",
+    "neighborhood": "Pedagantyada",
+    "price": 4500000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 980.0,
+    "type": "Flat",
+    "neighborhood": "Madhurawada",
+    "price": 4500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 1503.0,
+    "type": "Apartment",
+    "neighborhood": "Bhogapuram",
+    "price": 3000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Agra",
+    "date": "2024-11-19",
+    "size": 3229.0,
+    "type": "Apartment",
+    "neighborhood": "Shastripuram",
+    "price": 25000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 1500.0,
+    "type": "Flat",
+    "neighborhood": "Madhurawada",
+    "price": 12500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Kochi",
+    "date": "2024-11-19",
+    "size": 1375.0,
+    "type": "House",
+    "neighborhood": "Chalikavattom",
+    "price": 7000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2024-11-19",
+    "size": 94525.0,
+    "type": "Apartment",
+    "neighborhood": "Anakapalle",
+    "price": 15100000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kochi",
+    "date": "2024-11-19",
+    "size": 940.0,
+    "type": "Apartment",
+    "neighborhood": "Chalikavattom",
+    "price": 1500000.0
+  },
+  {
+    "beds": 4,
+    "baths": 6.0,
+    "city": "Kakinada",
+    "date": "2024-12-19",
+    "size": 165.0,
+    "type": "Villa",
+    "neighborhood": "Vakalapudi",
+    "price": 10000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Agra",
+    "date": "2024-12-19",
+    "size": 2367.0,
+    "type": "House",
+    "neighborhood": "Dayal Bagh",
+    "price": 31500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kochi",
+    "date": "2024-12-19",
+    "size": 35790.0,
+    "type": "Apartment",
+    "neighborhood": "Chakkaraparambu",
+    "price": 35000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Agra",
+    "date": "2024-12-19",
+    "size": 1883.0,
+    "type": "Flat",
+    "neighborhood": "Taj Nagari",
+    "price": 11000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Agra",
+    "date": "2024-12-19",
+    "size": 1705.0,
+    "type": "Flat",
+    "neighborhood": "Dayal Bagh",
+    "price": 8200000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Kochi",
+    "date": "2024-12-19",
+    "size": 1000.0,
+    "type": "House",
+    "neighborhood": "Chakkaraparambu",
+    "price": 7500000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Agra",
+    "date": "2024-12-19",
+    "size": 968.0,
+    "type": "Flat",
+    "neighborhood": "Shastripuram",
+    "price": 5200000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1860.0,
+    "type": "Flat",
+    "neighborhood": "Santhi Nagar",
+    "price": 9300000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Pune",
+    "date": "2025-01-19",
+    "size": 710.0,
+    "type": "Apartment",
+    "neighborhood": "Hinjewadi",
+    "price": 8700000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Kochi",
+    "date": "2025-01-19",
+    "size": 1350.0,
+    "type": "Flat",
+    "neighborhood": "sheetal apartments",
+    "price": 5000000.0
+  },
+  {
+    "beds": 6,
+    "baths": 6.0,
+    "city": "Pune",
+    "date": "2025-01-19",
+    "size": 840.0,
+    "type": "House/Villa",
+    "neighborhood": "Katraj",
+    "price": 13500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1550.0,
+    "type": "Flat",
+    "neighborhood": "Vidyut Nagar",
+    "price": 8500000.0
+  },
+  {
+    "beds": 4,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1422.0,
+    "type": "Villa",
+    "neighborhood": "Ramanayapeta",
+    "price": 8000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 1800.0,
+    "type": "Apartment",
+    "neighborhood": "Bangalore Highway",
+    "price": 5200000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1450.0,
+    "type": "Villa",
+    "neighborhood": "Rameswaram",
+    "price": 5800000.0
+  },
+  {
+    "beds": 2,
+    "baths": 1.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 350.0,
+    "type": "Villa",
+    "neighborhood": "Madhavapatnam",
+    "price": 5500000.0
+  },
+  {
+    "beds": 4,
+    "baths": 4.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 2628.0,
+    "type": "Flat",
+    "neighborhood": "Ramanayapeta",
+    "price": 18000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 2600.0,
+    "type": "Villa",
+    "neighborhood": "Atchampeta",
+    "price": 16500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kochi",
+    "date": "2025-01-19",
+    "size": 10454.0,
+    "type": "Apartment",
+    "neighborhood": "Vennala",
+    "price": 39600000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1265.0,
+    "type": "Flat",
+    "neighborhood": "Rama Rao Peta",
+    "price": 6578000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 1290.0,
+    "type": "Flat",
+    "neighborhood": "Kondapur",
+    "price": 16000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 2600.0,
+    "type": "Villa",
+    "neighborhood": "Atchampeta",
+    "price": 16500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1368.0,
+    "type": "Villa",
+    "neighborhood": "SBI Employees Colony",
+    "price": 6900000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1472.0,
+    "type": "Flat",
+    "neighborhood": "Vidyut Nagar",
+    "price": 7000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 1350.0,
+    "type": "Apartment",
+    "neighborhood": "Nadargul",
+    "price": 5400000.0
+  },
+  {
+    "beds": 3,
+    "baths": 4.0,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 1965.0,
+    "type": "Flat",
+    "neighborhood": "Kondapur",
+    "price": 25300000.0
+  },
+  {
+    "beds": 9,
+    "baths": 9.0,
+    "city": "Noida",
+    "date": "2025-01-19",
+    "size": 3229.0,
+    "type": "House/Villa",
+    "neighborhood": "Sector 39",
+    "price": 55000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1800.0,
+    "type": "Villa",
+    "neighborhood": "Kovvada",
+    "price": 11600000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 1800.0,
+    "type": "Villa",
+    "neighborhood": "Kovvada",
+    "price": 11600000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Pune",
+    "date": "2025-01-19",
+    "size": 953.0,
+    "type": "Apartment",
+    "neighborhood": "Manjari Khurd",
+    "price": 10000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 1665.0,
+    "type": "Apartment",
+    "neighborhood": "Shankarpally",
+    "price": 2960000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 1795.0,
+    "type": "Flat",
+    "neighborhood": "Nagole",
+    "price": 10500000.0
+  },
+  {
+    "beds": 4,
+    "baths": 6.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 165.0,
+    "type": "Villa",
+    "neighborhood": "Vakalapudi",
+    "price": 10000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 2095.0,
+    "type": "Apartment",
+    "neighborhood": "Kothur",
+    "price": 3726000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Pune",
+    "date": "2025-01-19",
+    "size": 1075.0,
+    "type": "Apartment",
+    "neighborhood": "Sinhgad Road",
+    "price": 13000000.0
+  },
+  {
+    "beds": 5,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 3150.0,
+    "type": "Villa",
+    "neighborhood": "Ramanayapeta",
+    "price": 25000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 230.0,
+    "type": "Villa",
+    "neighborhood": "Sasikanth Nagar",
+    "price": 20000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Agra",
+    "date": "2025-01-19",
+    "size": 894.0,
+    "type": "Flat",
+    "neighborhood": "Maharishi Puram Colony",
+    "price": 4000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 3870.0,
+    "type": "Apartment",
+    "neighborhood": "Nallagandla",
+    "price": 56000000.0
+  },
+  {
+    "beds": 5,
+    "baths": 4.0,
+    "city": "Kakinada",
+    "date": "2025-01-19",
+    "size": 2304.0,
+    "type": "Villa",
+    "neighborhood": "Sasikanth Nagar",
+    "price": 20000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 3780.0,
+    "type": "Apartment",
+    "neighborhood": "Tellapur",
+    "price": 58000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Hyderabad",
+    "date": "2025-01-19",
+    "size": 2160.0,
+    "type": "Apartment",
+    "neighborhood": "Mominpet",
+    "price": 2000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Kochi",
+    "date": "2025-01-22",
+    "size": 1375.0,
+    "type": "House",
+    "neighborhood": "Vennala",
+    "price": 7000000.0
+  },
+  {
+    "beds": 5,
+    "baths": 2.0,
+    "city": "Agra",
+    "date": "2025-01-29",
+    "size": 3753.0,
+    "type": "House",
+    "neighborhood": "Civil Lines",
+    "price": 41700000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-02",
+    "size": 2178.0,
+    "type": "Land",
+    "neighborhood": "Putheri",
+    "price": 4000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-02",
+    "size": 435.0,
+    "type": "Land",
+    "neighborhood": "Thiruppathisaram",
+    "price": 1100000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-05",
+    "size": 3049.0,
+    "type": "Land",
+    "neighborhood": "Madhavalayam, Azad Nagar",
+    "price": 6300000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Pune",
+    "date": "2025-02-05",
+    "size": 1150.0,
+    "type": "Apartment",
+    "neighborhood": "Undri",
+    "price": 9500000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Kochi",
+    "date": "2025-02-05",
+    "size": 1000.0,
+    "type": "Flat",
+    "neighborhood": "good earth hamlet",
+    "price": 8000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kakinada",
+    "date": "2025-02-05",
+    "size": 4068.0,
+    "type": "Land",
+    "neighborhood": "Turangi",
+    "price": 11600000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Agra",
+    "date": "2025-02-05",
+    "size": 99000.0,
+    "type": "Apartment",
+    "neighborhood": "Jeoni Mandi",
+    "price": 600000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Kanyakumari",
+    "date": "2025-02-12",
+    "size": 3800.0,
+    "type": "House",
+    "neighborhood": "Marthandam",
+    "price": 10000000.0
+  },
+  {
+    "beds": 5,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-02-12",
+    "size": 3150.0,
+    "type": "Villa",
+    "neighborhood": "Ramanayapeta",
+    "price": 25000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Kochi",
+    "date": "2025-02-12",
+    "size": 1388.0,
+    "type": "Flat",
+    "neighborhood": "Nagpal Sapphire Heights",
+    "price": 7500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Pune",
+    "date": "2025-02-12",
+    "size": 878.0,
+    "type": "Apartment",
+    "neighborhood": "Mahalunge",
+    "price": 12000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Agra",
+    "date": "2025-02-12",
+    "size": 11997.0,
+    "type": "Apartment",
+    "neighborhood": "Dayal Bagh",
+    "price": 27000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Pune",
+    "date": "2025-02-13",
+    "size": 690.0,
+    "type": "Apartment",
+    "neighborhood": "Punawale",
+    "price": 6500000.0
+  },
+  {
+    "beds": 4,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-02-13",
+    "size": 230.0,
+    "type": "Villa",
+    "neighborhood": "Sasikanth Nagar",
+    "price": 20000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-15",
+    "size": 5662.0,
+    "type": "Land",
+    "neighborhood": "Mandaikadu",
+    "price": 5460000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-15",
+    "size": 2178.0,
+    "type": "Land",
+    "neighborhood": "Thuckalay",
+    "price": 3000000.0
+  },
+  {
+    "beds": 5,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-02-15",
+    "size": 2304.0,
+    "type": "Villa",
+    "neighborhood": "Sasikanth Nagar",
+    "price": 20000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-16",
+    "size": 10000.0,
+    "type": "Land",
+    "neighborhood": "Marthandam",
+    "price": 53000000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Pune",
+    "date": "2025-02-17",
+    "size": 640.0,
+    "type": "Apartment",
+    "neighborhood": "Kirkatwadi",
+    "price": 3500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-17",
+    "size": 1090.0,
+    "type": "Land",
+    "neighborhood": "Near Shri Shirdi Sai Baba Temple, Pothayadi junction.",
+    "price": 4000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-02-18",
+    "size": 1450.0,
+    "type": "Flat",
+    "neighborhood": "Gandhi Nagar",
+    "price": 7800000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-18",
+    "size": 3950.0,
+    "type": "Land",
+    "neighborhood": "Thuckalay",
+    "price": 13500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Pune",
+    "date": "2025-02-18",
+    "size": 1510.0,
+    "type": "Apartment",
+    "neighborhood": "Ghorpadi",
+    "price": 16000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-18",
+    "size": 4843.0,
+    "type": "Land",
+    "neighborhood": "Sector 122",
+    "price": 90000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-02-18",
+    "size": 1100.0,
+    "type": "Flat",
+    "neighborhood": "Santinagar",
+    "price": 5000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kanyakumari",
+    "date": "2025-02-18",
+    "size": 2613.0,
+    "type": "Land",
+    "neighborhood": "Kulasekharam",
+    "price": 3600000.0
+  },
+  {
+    "beds": 7,
+    "baths": 7.0,
+    "city": "Vikarabad",
+    "date": "2025-02-19",
+    "size": 4338.0,
+    "type": "House",
+    "neighborhood": "Tandur",
+    "price": 20000000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 340.0,
+    "type": "House",
+    "neighborhood": "Kandivali West",
+    "price": 12000000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Gomti Nagar Extension",
+    "price": 20300000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 1802.5,
+    "type": "Apartment",
+    "neighborhood": "Khandagiri",
+    "price": 20600000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1723.0,
+    "type": "Flat",
+    "neighborhood": "Perungudi",
+    "price": 20700000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Moti Nagar",
+    "price": 21000000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1279.0,
+    "type": "Apartment",
+    "neighborhood": "Valasaravakkam",
+    "price": 21200000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Karol Bagh",
+    "price": 22500000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 360.0,
+    "type": "Builder Floor",
+    "neighborhood": "Kandivali East",
+    "price": 11500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 2211.37,
+    "type": "Apartment",
+    "neighborhood": "Prabhadevi",
+    "price": 95400000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 200.0,
+    "type": "Flat",
+    "neighborhood": "nallasopara",
+    "price": 9000000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Villa",
+    "neighborhood": "GN Mills",
+    "price": 23000000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "sector 121",
+    "price": 23000000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 1837.5,
+    "type": "Apartment",
+    "neighborhood": "Whitefield",
+    "price": 23200000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Navi Mumbai",
+    "date": "2025-02-19",
+    "size": 1089.0,
+    "type": "Apartment",
+    "neighborhood": "Panvel",
+    "price": 9000000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Gomti Nagar Extension",
+    "price": 23500000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 4500.0,
+    "type": "House",
+    "neighborhood": "Sector 9 MVP Colony",
+    "price": 20000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 4.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Villa",
+    "neighborhood": "Chattarpur",
+    "price": 90000000.0
+  },
+  {
+    "beds": 10,
+    "baths": 6.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 484.0,
+    "type": "House",
+    "neighborhood": "Sarpavaram",
+    "price": 33900000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 200.0,
+    "type": "Flat",
+    "neighborhood": "Malad West",
+    "price": 13000000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 2208.0,
+    "type": "Apartment",
+    "neighborhood": "Tadigadapa",
+    "price": null
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 3400.0,
+    "type": "Apartment",
+    "neighborhood": "Poranki",
+    "price": null
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 2179.0,
+    "type": "Flat",
+    "neighborhood": "Patia",
+    "price": 18000000.0
+  },
+  {
+    "beds": 4,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 7155.0,
+    "type": "Apartment",
+    "neighborhood": "Koba",
+    "price": null
+  },
+  {
+    "beds": 5,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 9525.5,
+    "type": "House",
+    "neighborhood": "Koba, Raysan",
+    "price": null
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sector 43",
+    "price": 18000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 2422.5,
+    "type": "Apartment",
+    "neighborhood": "Shivaji Palem",
+    "price": 18700000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 3600.0,
+    "type": "Land",
+    "neighborhood": "ECR",
+    "price": 19000000.0
+  },
+  {
+    "beds": 4,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 4878.0,
+    "type": "Apartment",
+    "neighborhood": "Randesan",
+    "price": 20000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "KPHB",
+    "price": 19200000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": 6458.0,
+    "type": "Apartment",
+    "neighborhood": "Block G Sector 44",
+    "price": 270000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 9000.0,
+    "type": "Apartment",
+    "neighborhood": "Rosewood City",
+    "price": 249500000.0
+  },
+  {
+    "beds": 4,
+    "baths": 4.0,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 6050.0,
+    "type": "Flat",
+    "neighborhood": "Sector 65",
+    "price": 200000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 4.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 2403.0,
+    "type": "House",
+    "neighborhood": "Kommadi",
+    "price": 19500000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 180.0,
+    "type": "House",
+    "neighborhood": "Santacruz East",
+    "price": 15000000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 400.0,
+    "type": "Builder Floor",
+    "neighborhood": "Badlapur Vangani",
+    "price": 15000000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 300.0,
+    "type": "House",
+    "neighborhood": "NaLanda Nagar",
+    "price": 15000000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 100.0,
+    "type": "Builder Floor",
+    "neighborhood": "Asalpha",
+    "price": 13000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 2183.0,
+    "type": "Apartment",
+    "neighborhood": "Sholinganallur",
+    "price": 19200000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 4797.0,
+    "type": "Apartment",
+    "neighborhood": "Ambapuram",
+    "price": 20000000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sector 44",
+    "price": 73000000.0
+  },
+  {
+    "beds": 5,
+    "baths": 4.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 2430.0,
+    "type": "House",
+    "neighborhood": "Sarpavaram",
+    "price": 33000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 5.0,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 4500.0,
+    "type": "Builder Floor",
+    "neighborhood": "South City 2",
+    "price": 45000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 4.0,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 3150.0,
+    "type": "Builder Floor",
+    "neighborhood": "Rosewood City",
+    "price": 44900000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 1692.17,
+    "type": "Apartment",
+    "neighborhood": "Sewri",
+    "price": 44700000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sector 115",
+    "price": 29500000.0
+  },
+  {
+    "beds": 12,
+    "baths": 12.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 8500.0,
+    "type": "House",
+    "neighborhood": "Pallamraju Nagar",
+    "price": 42000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 4864.5,
+    "type": "Villa",
+    "neighborhood": "Bheemili",
+    "price": 29800000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 1220.49,
+    "type": "Apartment",
+    "neighborhood": "Matunga",
+    "price": 29800000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": 1925.0,
+    "type": "Flat",
+    "neighborhood": "Sector 146",
+    "price": 29800000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 1051.96,
+    "type": "Apartment",
+    "neighborhood": "Wadala",
+    "price": 29900000.0
+  },
+  {
+    "beds": 4,
+    "baths": 3.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 3900.0,
+    "type": "Flat",
+    "neighborhood": "Thimmapuram",
+    "price": 30000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 1980.0,
+    "type": "Flat",
+    "neighborhood": "Cheediga",
+    "price": 30000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 4.0,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 2562.0,
+    "type": "Flat",
+    "neighborhood": "Uppals Southend",
+    "price": 41600000.0
+  },
+  {
+    "beds": 4,
+    "baths": 4.0,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 4200.0,
+    "type": "Flat",
+    "neighborhood": "Sector 103",
+    "price": 40100000.0
+  },
+  {
+    "beds": 4,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 0.0,
+    "type": "Villa",
+    "neighborhood": "Hebbal",
+    "price": 39800000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 1805.0,
+    "type": "Flat",
+    "neighborhood": "Sector 49",
+    "price": 30500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 2372.5,
+    "type": "Apartment",
+    "neighborhood": "T Nagar",
+    "price": 34000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 4.0,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 3240.0,
+    "type": "Builder Floor",
+    "neighborhood": "South City 2",
+    "price": 34000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 957.29,
+    "type": "Apartment",
+    "neighborhood": "Mahim West",
+    "price": 29100000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 2332.55,
+    "type": "Apartment",
+    "neighborhood": "C Scheme",
+    "price": 28900000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 1281.9,
+    "type": "Apartment",
+    "neighborhood": "Mahalaxmi",
+    "price": 45700000.0
+  },
+  {
+    "beds": 4,
+    "baths": null,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 3690.0,
+    "type": "Apartment",
+    "neighborhood": "Sri Ramachandra Nagar",
+    "price": 26700000.0
+  },
+  {
+    "beds": 3,
+    "baths": 4.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 1459.0,
+    "type": "Flat",
+    "neighborhood": "Santacruz West",
+    "price": 73000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 2655.0,
+    "type": "House",
+    "neighborhood": "SBI Staff Colony, Srinivasa Nagar",
+    "price": 25000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 3.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 1800.0,
+    "type": "House",
+    "neighborhood": "Ashok Nagar",
+    "price": 25000000.0
+  },
+  {
+    "beds": 5,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 3150.0,
+    "type": "House",
+    "neighborhood": "Ramanayapeta",
+    "price": 25000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 5.0,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 1942.0,
+    "type": "Apartment",
+    "neighborhood": "Sector 49",
+    "price": 69000000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sector 45",
+    "price": 59500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 46609.0,
+    "type": "Land",
+    "neighborhood": "Chitrada",
+    "price": 25000000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Gurgaon",
+    "date": "2025-02-19",
+    "size": 1359.5,
+    "type": "Apartment",
+    "neighborhood": "Sector 49",
+    "price": 52800000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sector 94",
+    "price": 81700000.0
+  },
+  {
+    "beds": 4,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Villa",
+    "neighborhood": "Ganapathy",
+    "price": 25100000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 1918.35,
+    "type": "Apartment",
+    "neighborhood": "Gift City",
+    "price": 25400000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Builder Floor",
+    "neighborhood": "Greater Kailash 2",
+    "price": 50000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": 1350.0,
+    "type": "Builder Floor",
+    "neighborhood": "Paschim Vihar",
+    "price": 25500000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sector 152",
+    "price": 25900000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 1546.5,
+    "type": "Apartment",
+    "neighborhood": "Worli",
+    "price": 48000000.0
+  },
+  {
+    "beds": 4,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Gomti Nagar Extension",
+    "price": 45900000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": 1800.0,
+    "type": "Builder Floor",
+    "neighborhood": "Surajmal Vihar",
+    "price": 26500000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Noida",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sector 75",
+    "price": 26500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Navi Mumbai",
+    "date": "2025-02-19",
+    "size": 1089.0,
+    "type": "Apartment",
+    "neighborhood": "Chirle",
+    "price": 5150000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 4464.0,
+    "type": "Land",
+    "neighborhood": "Narasanna Nagar",
+    "price": 32500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 720.0,
+    "type": "Apartment",
+    "neighborhood": "Mansarovar Township (Siliguri WB)",
+    "price": 500000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sushant Golf City",
+    "price": 15800000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 2100.0,
+    "type": "Land",
+    "neighborhood": "Thiruporur",
+    "price": 4080000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 1208.72,
+    "type": "Apartment",
+    "neighborhood": "Vaishali Nagar",
+    "price": 4200000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1600.0,
+    "type": "Land",
+    "neighborhood": "Thaiyur",
+    "price": 4230000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 1503.0,
+    "type": "Apartment",
+    "neighborhood": "Thagarapuvalasa",
+    "price": 4676000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1680.0,
+    "type": "Apartment",
+    "neighborhood": "Maraimalai Nagar, GST Road",
+    "price": 4800000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 1117.5,
+    "type": "Apartment",
+    "neighborhood": "Madhurawada",
+    "price": 4940000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 7199.0,
+    "type": "Apartment",
+    "neighborhood": "Chalsa",
+    "price": 5000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 1080.0,
+    "type": "House",
+    "neighborhood": "Suresh Nagar",
+    "price": 5000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Thane",
+    "date": "2025-02-19",
+    "size": 686.0,
+    "type": "Flat",
+    "neighborhood": "Dombivli East",
+    "price": 5000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 954.89,
+    "type": "Apartment",
+    "neighborhood": "Gannavaram",
+    "price": 5065000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 1310.59,
+    "type": "Apartment",
+    "neighborhood": "Vaishali Nagar Extension",
+    "price": 5132000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Patna",
+    "date": "2025-02-19",
+    "size": 2400.0,
+    "type": "Apartment",
+    "neighborhood": "Sonepur",
+    "price": 5520000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 1479.15,
+    "type": "Apartment",
+    "neighborhood": "Jagatpura",
+    "price": 5846000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 12239.0,
+    "type": "Apartment",
+    "neighborhood": "Gairkata",
+    "price": 6000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": 1489.0,
+    "type": "Flat",
+    "neighborhood": "Sultanpur Road",
+    "price": 6105000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 1400.0,
+    "type": "Apartment",
+    "neighborhood": "Mansarovar",
+    "price": 6182000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 1314.0,
+    "type": "Apartment",
+    "neighborhood": "Kalkere",
+    "price": 6483000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 1530.0,
+    "type": "Flat",
+    "neighborhood": "Sargasan",
+    "price": 6500000.0
+  },
+  {
+    "beds": 10,
+    "baths": 3.0,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 2024.0,
+    "type": "House",
+    "neighborhood": "Kirat Bhumi",
+    "price": 6500000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1234.0,
+    "type": "Apartment",
+    "neighborhood": "New perungalathur",
+    "price": 6513000.0
+  },
+  {
+    "beds": 5,
+    "baths": 2.0,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 2102.0,
+    "type": "House",
+    "neighborhood": "Goshala",
+    "price": 6700000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Bowrampet",
+    "price": 6756000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 1316.0,
+    "type": "Apartment",
+    "neighborhood": "Yendada",
+    "price": 6947000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 2049.0,
+    "type": "Land",
+    "neighborhood": "Iyyappanthangal",
+    "price": 4062000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 2709.0,
+    "type": "Apartment",
+    "neighborhood": "Kudasan",
+    "price": 7014000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Kanpur Road",
+    "price": 3943000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 890.0,
+    "type": "Flat",
+    "neighborhood": "Rajbari Para",
+    "price": 3500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Land",
+    "neighborhood": "Sultanpur Road",
+    "price": 750000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Singanallur",
+    "price": 880000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 830.5,
+    "type": "Apartment",
+    "neighborhood": "Soukya Road",
+    "price": 889000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Villa + Land",
+    "neighborhood": "Sulur",
+    "price": 948000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 133.0,
+    "type": "Land",
+    "neighborhood": "Nadakuduru",
+    "price": 1064000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": 1000.0,
+    "type": "Apartment",
+    "neighborhood": "Budheshwar",
+    "price": 1099000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Villa + Land",
+    "neighborhood": "Sulur",
+    "price": 1240000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 2315.0,
+    "type": "Land",
+    "neighborhood": "Sriperumbudur",
+    "price": 1260000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 1959.03,
+    "type": "Land",
+    "neighborhood": "Pamarru",
+    "price": 1350000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Villa",
+    "neighborhood": "Vellakinar",
+    "price": 1500000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Patna",
+    "date": "2025-02-19",
+    "size": 1200.0,
+    "type": "Apartment",
+    "neighborhood": "Bihta",
+    "price": 1558000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 1600.0,
+    "type": "Apartment",
+    "neighborhood": "Phulnakhara",
+    "price": 1559000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Land",
+    "neighborhood": "Karamadai",
+    "price": 1859000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1152.0,
+    "type": "Land",
+    "neighborhood": "Pattabiram",
+    "price": 1984000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": 2874.0,
+    "type": "Apartment",
+    "neighborhood": "Sulur",
+    "price": 1998000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 1503.0,
+    "type": "Apartment",
+    "neighborhood": "Penamaluru",
+    "price": 2004000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 1647.0,
+    "type": "Apartment",
+    "neighborhood": "Penamaluru",
+    "price": 2196000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 1028.5,
+    "type": "Apartment",
+    "neighborhood": "Jigani",
+    "price": 2317000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 4319.0,
+    "type": "Apartment",
+    "neighborhood": "Ambari falakata",
+    "price": 2400000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": 1350.0,
+    "type": "Apartment",
+    "neighborhood": "Nawabpet",
+    "price": 2400000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1390.0,
+    "type": "Land",
+    "neighborhood": "Kandigai",
+    "price": 2723000.0
+  },
+  {
+    "beds": 2,
+    "baths": 1.0,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 3200.0,
+    "type": "House",
+    "neighborhood": "Maynaguri",
+    "price": 3000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 972.5,
+    "type": "Apartment",
+    "neighborhood": "Gajuwaka",
+    "price": 3133000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 1260.0,
+    "type": "Apartment",
+    "neighborhood": "Bheemili",
+    "price": 3780000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1210.5,
+    "type": "Apartment",
+    "neighborhood": "Mahindra City",
+    "price": 7090000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 856.97,
+    "type": "Apartment",
+    "neighborhood": "Patia",
+    "price": 7200000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 1688.99,
+    "type": "Apartment",
+    "neighborhood": "Jagatpura",
+    "price": 7225000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 2583.0,
+    "type": "Apartment",
+    "neighborhood": "Randesan",
+    "price": 11200000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 2010.0,
+    "type": "Apartment",
+    "neighborhood": "Pahala",
+    "price": 11800000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 2916.0,
+    "type": "Apartment",
+    "neighborhood": "Sargasan",
+    "price": 11900000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Kompally",
+    "price": null
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1299.0,
+    "type": "Apartment",
+    "neighborhood": "Mogappair West",
+    "price": 12000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 3600.0,
+    "type": "Apartment",
+    "neighborhood": "Dakamarri",
+    "price": 12000000.0
+  },
+  {
+    "beds": 4,
+    "baths": 1.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 2800.0,
+    "type": "House",
+    "neighborhood": "Maddilapalem",
+    "price": 12000000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 3021.0,
+    "type": "Apartment",
+    "neighborhood": "Gift City",
+    "price": 12200000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 1967.5,
+    "type": "Flat",
+    "neighborhood": "Mansarovar",
+    "price": 12200000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 3400.5,
+    "type": "Apartment",
+    "neighborhood": "Mansarovar",
+    "price": 12200000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 2510.0,
+    "type": "Apartment",
+    "neighborhood": "Jagatpura",
+    "price": 12300000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 1085.0,
+    "type": "Flat",
+    "neighborhood": "Tumkur Road",
+    "price": 12500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1647.0,
+    "type": "Flat",
+    "neighborhood": "Chitlapakkam",
+    "price": 12500000.0
+  },
+  {
+    "beds": 5,
+    "baths": 5.0,
+    "city": "Kakinada",
+    "date": "2025-02-19",
+    "size": 3000.0,
+    "type": "Builder Floor",
+    "neighborhood": "RTC colony",
+    "price": 12500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Kokapet",
+    "price": 12600000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Builder Floor",
+    "neighborhood": "Anand Vihar",
+    "price": 13000000.0
+  },
+  {
+    "beds": 3,
+    "baths": 4.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": 2713.0,
+    "type": "Flat",
+    "neighborhood": "Mokila",
+    "price": 13600000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 2457.5,
+    "type": "Apartment",
+    "neighborhood": "Patrapada",
+    "price": 14000000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Mumbai",
+    "date": "2025-02-19",
+    "size": 1548.85,
+    "type": "Apartment",
+    "neighborhood": "Wadala",
+    "price": 14400000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 2675.0,
+    "type": "Apartment",
+    "neighborhood": "Jharapada",
+    "price": 14700000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sushant Golf City",
+    "price": 14900000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 1841.5,
+    "type": "Apartment",
+    "neighborhood": "Sarjapur Road",
+    "price": 15000000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 2017.5,
+    "type": "Apartment",
+    "neighborhood": "Bannerghatta Road",
+    "price": 15700000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 1321.0,
+    "type": "Apartment",
+    "neighborhood": "Whitefield",
+    "price": 11100000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 3600.0,
+    "type": "Apartment",
+    "neighborhood": "Anandapuram",
+    "price": 11000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Janakpuri",
+    "price": 11000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 3375.0,
+    "type": "Apartment",
+    "neighborhood": "Hakimpara",
+    "price": 11000000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 970.0,
+    "type": "Apartment",
+    "neighborhood": "Gajuwaka",
+    "price": 7501000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1165.0,
+    "type": "Apartment",
+    "neighborhood": "Perumbakkam",
+    "price": 7514000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bangalore",
+    "date": "2025-02-19",
+    "size": 1358.5,
+    "type": "Apartment",
+    "neighborhood": "Yelahanka",
+    "price": 7518000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Vijayawada",
+    "date": "2025-02-19",
+    "size": 4621.5,
+    "type": "Land",
+    "neighborhood": "Ramavarappadu",
+    "price": 7552000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 0.0,
+    "type": "Land",
+    "neighborhood": "Siruseri",
+    "price": 7600000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": 1321.0,
+    "type": "Apartment",
+    "neighborhood": "Ettimadai",
+    "price": 7678000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 852.04,
+    "type": "Apartment",
+    "neighborhood": "Hanspal",
+    "price": 7900000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Patancheru",
+    "price": 8212000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Coimbatore",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Villa",
+    "neighborhood": "Thudiyalur",
+    "price": 8232000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 2117.0,
+    "type": "Apartment",
+    "neighborhood": "Gothapatna",
+    "price": 8286000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 959.5,
+    "type": "Flat",
+    "neighborhood": "Maduravoyal",
+    "price": 8445000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Vizianagaram",
+    "date": "2025-02-19",
+    "size": 7200.0,
+    "type": "Apartment",
+    "neighborhood": "Modavalasa",
+    "price": 16000000.0
+  },
+  {
+    "beds": 1,
+    "baths": 1.0,
+    "city": "Chennai",
+    "date": "2025-02-19",
+    "size": 1187.0,
+    "type": "Apartment",
+    "neighborhood": "ECR",
+    "price": 8460000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Bhubaneswar",
+    "date": "2025-02-19",
+    "size": 1397.5,
+    "type": "Apartment",
+    "neighborhood": "Janla",
+    "price": 8938000.0
+  },
+  {
+    "beds": 2,
+    "baths": null,
+    "city": "Lucknow",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Sushant Golf City",
+    "price": 9059000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Tellapur",
+    "price": 9305000.0
+  },
+  {
+    "beds": 3,
+    "baths": 2.0,
+    "city": "Jaipur",
+    "date": "2025-02-19",
+    "size": 1916.0,
+    "type": "Flat",
+    "neighborhood": "Tonk Road",
+    "price": 9378000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 1910.0,
+    "type": "Apartment",
+    "neighborhood": "Madhurawada",
+    "price": 9454000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Manikonda",
+    "price": 9582000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Hyderabad",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Apartment",
+    "neighborhood": "Tellapur",
+    "price": 10000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Visakhapatnam",
+    "date": "2025-02-19",
+    "size": 11325.0,
+    "type": "Apartment",
+    "neighborhood": "Narsipatnam",
+    "price": 10000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Guntur",
+    "date": "2025-02-19",
+    "size": 58806.0,
+    "type": "Apartment",
+    "neighborhood": "Sattenapalle",
+    "price": 10000000.0
+  },
+  {
+    "beds": 0,
+    "baths": null,
+    "city": "Jalpaiguri",
+    "date": "2025-02-19",
+    "size": 75075.0,
+    "type": "Apartment",
+    "neighborhood": "Uttar Kamakhyaguri",
+    "price": 10400000.0
+  },
+  {
+    "beds": 3,
+    "baths": null,
+    "city": "Gandhinagar",
+    "date": "2025-02-19",
+    "size": 2475.0,
+    "type": "Apartment",
+    "neighborhood": "Sargasan",
+    "price": 10700000.0
+  },
+  {
+    "beds": 2,
+    "baths": 2.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Builder Floor",
+    "neighborhood": "Sector 8 Dwarka",
+    "price": 8500000.0
+  },
+  {
+    "beds": 3,
+    "baths": 3.0,
+    "city": "Delhi",
+    "date": "2025-02-19",
+    "size": null,
+    "type": "Builder Floor",
+    "neighborhood": "Model Town",
+    "price": null
+  }
+]

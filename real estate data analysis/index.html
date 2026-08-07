@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Real Estate Analytics Dashboard</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-hotel"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>Real Estate</h1>
+                    <span>Analytics Portal</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active" id="nav-overview">
+                        <a href="#"><i class="fa-solid fa-chart-line"></i> Overview</a>
+                    </li>
+                    <li id="nav-locations">
+                        <a href="#"><i class="fa-solid fa-map-location-dot"></i> Locations</a>
+                    </li>
+                    <li id="nav-properties">
+                        <a href="#"><i class="fa-solid fa-building"></i> Properties</a>
+                    </li>
+                    <li id="nav-price">
+                        <a href="#"><i class="fa-solid fa-tags"></i> Price Analysis</a>
+                    </li>
+                    <li id="nav-reports">
+                        <a href="#"><i class="fa-solid fa-file-contract"></i> Reports</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="footer-meta">
+                    <p class="meta-label">Data Source</p>
+                    <p class="meta-value">real_estate_dataset.csv</p>
+                </div>
+                <div class="footer-meta">
+                    <p class="meta-label">Total Listings</p>
+                    <p class="meta-value" id="sidebar-total-listings">-</p>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header Section -->
+            <header class="header">
+                <div class="header-title">
+                    <h2>Real Estate Dashboard</h2>
+                    <p>Overview of Luxury Property Listings & Market Performance</p>
+                </div>
+                
+                <!-- Slicers (Filters) -->
+                <div class="slicers-container">
+                    <div class="slicer-item">
+                        <label for="slicer-city"><i class="fa-solid fa-location-dot"></i> City</label>
+                        <select id="slicer-city">
+                            <option value="all">All Cities</option>
+                        </select>
+                    </div>
+                    
+                    <div class="slicer-item">
+                        <label for="slicer-type"><i class="fa-solid fa-house"></i> Property Type</label>
+                        <select id="slicer-type">
+                            <option value="all">All Types</option>
+                        </select>
+                    </div>
+                    
+                    <div class="slicer-item">
+                        <label for="slicer-beds"><i class="fa-solid fa-bed"></i> Beds</label>
+                        <select id="slicer-beds">
+                            <option value="all">All Beds</option>
+                        </select>
+                    </div>
+                    
+                    <div class="slicer-item">
+                        <label for="slicer-price"><i class="fa-solid fa-indian-rupee-sign"></i> Price Range</label>
+                        <select id="slicer-price">
+                            <option value="all">All Prices</option>
+                            <option value="under-50l">Under ₹50 Lakhs</option>
+                            <option value="50l-1cr">₹50 L - ₹1 Crore</option>
+                            <option value="1cr-2.5cr">₹1 Cr - ₹2.5 Crore</option>
+                            <option value="2.5cr-5cr">₹2.5 Cr - ₹5 Crore</option>
+                            <option value="over-5cr">Over ₹5 Crore</option>
+                        </select>
+                    </div>
+                    
+                    <button class="clear-filters-btn" id="clear-filters-btn">
+                        <i class="fa-solid fa-filter-circle-xmark"></i> Clear
+                    </button>
+                </div>
+            </header>
+            
+            <!-- ==========================================
+                 1. Overview View Content
+                 ========================================== -->
+            <div id="view-overview" class="view-content active">
+                <!-- KPI Cards Row -->
+                <section class="kpi-row">
+                    <div class="kpi-card" id="kpi-total-properties">
+                        <div class="kpi-icon blue">
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-val-total">-</span>
+                            <span class="kpi-title">Total Properties</span>
+                        </div>
+                    </div>
+                    
+                    <div class="kpi-card" id="kpi-avg-price">
+                        <div class="kpi-icon green">
+                            <i class="fa-solid fa-indian-rupee-sign"></i>
+                        </div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-val-price">-</span>
+                            <span class="kpi-title">Average Price</span>
+                        </div>
+                    </div>
+                    
+                    <div class="kpi-card" id="kpi-avg-size">
+                        <div class="kpi-icon purple">
+                            <i class="fa-solid fa-maximize"></i>
+                        </div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-val-size">-</span>
+                            <span class="kpi-title">Average Size</span>
+                        </div>
+                    </div>
+                    
+                    <div class="kpi-card" id="kpi-avg-beds">
+                        <div class="kpi-icon orange">
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-val-beds">-</span>
+                            <span class="kpi-title">Average Beds</span>
+                        </div>
+                    </div>
+                    
+                    <div class="kpi-card" id="kpi-avg-baths">
+                        <div class="kpi-icon teal">
+                            <i class="fa-solid fa-bath"></i>
+                        </div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-val-baths">-</span>
+                            <span class="kpi-title">Average Baths</span>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Visualization Grid -->
+                <section class="charts-grid">
+                    <!-- Top Row: Price by City, Property Type, Price by Beds -->
+                    <div class="chart-card large">
+                        <div class="chart-card-header">
+                            <h3>Average Price by City</h3>
+                            <span class="chart-subtitle">INR in Lakhs/Crores</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="chart-price-by-city"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-card medium">
+                        <div class="chart-card-header">
+                            <h3>Properties by Type</h3>
+                            <span class="chart-subtitle">Volume distribution</span>
+                        </div>
+                        <div class="chart-canvas-container donut">
+                            <canvas id="chart-properties-by-type"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card medium">
+                        <div class="chart-card-header">
+                            <h3>Average Price by Beds</h3>
+                            <span class="chart-subtitle">Value based on configuration</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="chart-price-by-beds"></canvas>
+                        </div>
+                    </div>
+                    
+                    <!-- Middle Row: Listings over Time, Top 10 Neighborhoods -->
+                    <div class="chart-card large">
+                        <div class="chart-card-header">
+                            <h3>Properties Listed Over Time</h3>
+                            <span class="chart-subtitle">Timeline trend</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="chart-listed-over-time"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-card large">
+                        <div class="chart-card-header">
+                            <h3>Top 10 Neighborhoods by Listings</h3>
+                            <span class="chart-subtitle">Most active localities</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="chart-top-neighborhoods"></canvas>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Row: Price vs Size, Beds Distribution -->
+                    <div class="chart-card large">
+                        <div class="chart-card-header">
+                            <h3>Price vs Size Correlation</h3>
+                            <span class="chart-subtitle">Size (Sq. Ft.) vs Price (INR)</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="chart-price-vs-size"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-card medium">
+                        <div class="chart-card-header">
+                            <h3>Beds Distribution</h3>
+                            <span class="chart-subtitle">Property count by room count</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="chart-beds-distribution"></canvas>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Key Insights Section -->
+                <section class="insights-section">
+                    <div class="insights-header">
+                        <div class="insights-title-container">
+                            <div class="insight-lamp-icon">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                            <h3>Key Insights</h3>
+                        </div>
+                        <span class="insights-meta">Automated Market Highlights</span>
+                    </div>
+                    <div class="insights-grid" id="insights-grid">
+                        <div class="insight-item">
+                            <div class="insight-icon"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+                            <div class="insight-content">
+                                <h4>Premium Market Leader</h4>
+                                <p id="insight-highest-price">Loading insight...</p>
+                            </div>
+                        </div>
+                        
+                        <div class="insight-item">
+                            <div class="insight-icon"><i class="fa-solid fa-house-circle-check"></i></div>
+                            <div class="insight-content">
+                                <h4>Dominant Property Type</h4>
+                                <p id="insight-dominant-type">Loading insight...</p>
+                            </div>
+                        </div>
+                        
+                        <div class="insight-item">
+                            <div class="insight-icon"><i class="fa-solid fa-bed"></i></div>
+                            <div class="insight-content">
+                                <h4>Most Common Config</h4>
+                                <p id="insight-common-beds">Loading insight...</p>
+                            </div>
+                        </div>
+                        
+                        <div class="insight-item">
+                            <div class="insight-icon"><i class="fa-solid fa-chart-area"></i></div>
+                            <div class="insight-content">
+                                <h4>Average Market Size</h4>
+                                <p id="insight-avg-size">Loading insight...</p>
+                            </div>
+                        </div>
+                        
+                        <div class="insight-item">
+                            <div class="insight-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="insight-content">
+                                <h4>Top Listings Hub</h4>
+                                <p id="insight-top-hub">Loading insight...</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ==========================================
+                 2. Locations View Content
+                 ========================================== -->
+            <div id="view-locations" class="view-content">
+                <section class="kpi-row">
+                    <div class="kpi-card">
+                        <div class="kpi-icon blue"><i class="fa-solid fa-city"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-loc-cities">-</span>
+                            <span class="kpi-title">Total Cities</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon purple"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-loc-neighborhoods">-</span>
+                            <span class="kpi-title">Total Neighborhoods</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon green"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-loc-expensive">-</span>
+                            <span class="kpi-title">Most Expensive City</span>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="charts-grid">
+                    <div class="chart-card large">
+                        <div class="chart-card-header">
+                            <h3>Average Price per Square Foot by City</h3>
+                            <span class="chart-subtitle">Calculated based on size and price</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="chart-price-per-sqft-city"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-card large">
+                        <div class="chart-card-header">
+                            <h3>Location Summary Directory</h3>
+                            <span class="chart-subtitle">Aggregated metrics per city</span>
+                        </div>
+                        <div class="table-container">
+                            <table class="data-table" id="location-summary-table">
+                                <thead>
+                                    <tr>
+                                        <th>City</th>
+                                        <th>Properties Listed</th>
+                                        <th>Average Price</th>
+                                        <th>Average Size (Sq. Ft.)</th>
+                                        <th>Avg Price / Sq. Ft.</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated dynamically -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ==========================================
+                 3. Properties Directory View
+                 ========================================== -->
+            <div id="view-properties" class="view-content">
+                <div class="table-card">
+                    <div class="table-card-header">
+                        <h3>Properties Listings Directory</h3>
+                        <div class="table-actions">
+                            <input type="text" id="property-search-input" placeholder="Search neighborhood or city...">
+                            <span class="total-badge" id="table-total-badge">0 Properties</span>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table" id="properties-directory-table">
+                            <thead>
+                                <tr>
+                                    <th>City</th>
+                                    <th>Neighborhood</th>
+                                    <th>Type</th>
+                                    <th>Beds</th>
+                                    <th>Baths</th>
+                                    <th>Size (Sq. Ft.)</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-pagination">
+                        <button id="btn-prev-page" class="pagination-btn"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                        <span id="pagination-info">Page 1 of 1</span>
+                        <button id="btn-next-page" class="pagination-btn">Next <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==========================================
+                 4. Price Analysis View
+                 ========================================== -->
+            <div id="view-price" class="view-content">
+                <section class="kpi-row">
+                    <div class="kpi-card">
+                        <div class="kpi-icon green"><i class="fa-solid fa-tag"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-price-avg-sqft">-</span>
+                            <span class="kpi-title">Average Price / Sq. Ft.</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon blue"><i class="fa-solid fa-circle-dollar-to-slot"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-price-min">-</span>
+                            <span class="kpi-title">Minimum Price</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon orange"><i class="fa-solid fa-money-bill-wave"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-value" id="kpi-price-max">-</span>
+                            <span class="kpi-title">Maximum Price</span>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="charts-grid">
+                    <div class="chart-card large">
+                        <div class="chart-card-header">
+                            <h3>Average Price per Square Foot by Property Type</h3>
+                            <span class="chart-subtitle">Footprint cost metrics</span>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="chart-price-per-sqft-type"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-card medium">
+                        <div class="chart-card-header">
+                            <h3>Valuation Estimator</h3>
+                            <span class="chart-subtitle">Estimate market cost by configuration</span>
+                        </div>
+                        <div class="estimator-form">
+                            <div class="form-group">
+                                <label for="est-city">Select City</label>
+                                <select id="est-city"></select>
+                            </div>
+                            <div class="form-group">
+                                <label for="est-type">Property Type</label>
+                                <select id="est-type"></select>
+                            </div>
+                            <div class="form-group">
+                                <label for="est-beds">Beds Configuration</label>
+                                <select id="est-beds"></select>
+                            </div>
+                            <div class="form-group">
+                                <label for="est-size">Footprint Sizing (Sq. Ft.)</label>
+                                <input type="number" id="est-size" placeholder="Enter sizing in sq. ft." value="1200">
+                            </div>
+                            <button class="estimate-btn" id="btn-estimate">Calculate Valuation</button>
+                            
+                            <div class="estimation-result" id="estimation-result" style="display:none">
+                                <h4>Estimated Market Value</h4>
+                                <span class="est-price" id="est-result-price">-</span>
+                                <p class="est-rate" id="est-result-rate">-</p>
+                                <span class="est-confidence text-muted" id="est-result-confidence">Based on average rate footprint</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ==========================================
+                 5. Executive Reports View
+                 ========================================== -->
+            <div id="view-reports" class="view-content">
+                <div class="report-card">
+                    <div class="report-actions">
+                        <button class="report-action-btn print" id="btn-print-report"><i class="fa-solid fa-print"></i> Print Executive Summary</button>
+                        <button class="report-action-btn download" id="btn-export-csv"><i class="fa-solid fa-file-csv"></i> Export Data (CSV)</button>
+                    </div>
+                    <div class="report-body" id="printable-report">
+                        <div class="report-title-header">
+                            <h2>EXECUTIVE REAL ESTATE MARKET SUMMARY</h2>
+                            <p class="report-date" id="report-generation-date">-</p>
+                        </div>
+                        
+                        <div class="report-divider"></div>
+                        
+                        <div class="report-overview-text">
+                            <p>This report represents an aggregated analytical audit of luxury and standard residential real estate assets matching the active filter parameters. The results summarize listings count, sizing footprints, room configurations, and market valuation spreads.</p>
+                        </div>
+                        
+                        <div class="report-stats-grid">
+                            <div class="report-stat-item">
+                                <span class="lbl">Total Monitored Listings</span>
+                                <span class="val" id="rep-val-total">-</span>
+                            </div>
+                            <div class="report-stat-item">
+                                <span class="lbl">Average Market Valuation</span>
+                                <span class="val" id="rep-val-price">-</span>
+                            </div>
+                            <div class="report-stat-item">
+                                <span class="lbl">Average Unit Footprint</span>
+                                <span class="val" id="rep-val-size">-</span>
+                            </div>
+                            <div class="report-stat-item">
+                                <span class="lbl">Average Price / Sq. Ft.</span>
+                                <span class="val" id="rep-val-price-sqft">-</span>
+                            </div>
+                        </div>
+                        
+                        <h3 class="report-section-title">City Breakdown and Activity Distribution</h3>
+                        <div class="table-container">
+                            <table class="data-table" id="report-breakdown-table">
+                                <thead>
+                                    <tr>
+                                        <th>City</th>
+                                        <th>Properties Listed</th>
+                                        <th>Avg Listing Price</th>
+                                        <th>Avg Sizing (Sq. Ft.)</th>
+                                        <th>Avg Price / Sq. Ft.</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Filled dynamically -->
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="report-signature">
+                            <p>Generated by Real Estate Analytics System</p>
+                            <small>Power BI Mirror Interface Prototype v1.0.0</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Script Execution -->
+    <script src="dashboard.js"></script>
+</body>
+</html>
